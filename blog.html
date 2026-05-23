@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Blog & Artikel Terbaru - Outbound Malang Batu</title>
+    <meta name="description" content="Kumpulan artikel, tips, dan inspirasi seputar kegiatan team building, outbound, persiapan petualangan, hingga rute touring terbaik di Kota Batu.">
+    <meta name="keywords" content="Blog Outbound, Tips Team Building, Touring Vespa Batu, Persiapan Outbound, Artikel Alam, Outbound Malang">
+    <meta name="author" content="OutboundBatu">
+    <link rel="canonical" href="https://www.outboundbatu.com/blog.html">
+
+    <meta property="og:title" content="Blog & Artikel Terbaru - Outbound Malang Batu">
+    <meta property="og:description" content="Kumpulan artikel, tips, dan inspirasi seputar kegiatan team building, persiapan petualangan, hingga rute alam di Kota Batu.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://www.outboundbatu.com/blog.html">
+    <meta property="og:type" content="website">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#2E8B57">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Blog OutboundBatu",
+      "description": "Kumpulan wawasan seputar kegiatan alam, persiapan tim, dan keseruan rekreasi di Kota Batu.",
+      "url": "https://www.outboundbatu.com/blog.html",
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "5 Manfaat Team Building di Alam Terbuka untuk Karyawan",
+          "url": "https://www.outboundbatu.com/5-manfaat-team-building.html",
+          "datePublished": "2026-05-18"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Serunya Rute Touring Vespa Menyusuri Udara Sejuk Kota Batu",
+          "url": "https://www.outboundbatu.com/rute-touring-vespa.html",
+          "datePublished": "2026-05-10"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Daftar Barang Bawaan Wajib Saat Mengikuti Kegiatan Outbound",
+          "url": "https://www.outboundbatu.com/aksesoris_wajib_vespa.html",
+          "datePublished": "2026-05-02"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        /* ====================
+           1. RESET & VARIABEL TEMA
+           ==================== */
+        :root {
+            --primary-green: #2E8B57;
+            --secondary-blue: #0288D1;
+            --accent-orange: #FF8F00;
+            --bg-light: #F9FBE7;
+            --bg-white: #FFFFFF;
+            --text-dark: #2C3E50;
+            --text-gray: #606F7B;
+            --text-light: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        html, body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden; /* Mengunci agar tidak bisa geser kanan-kiri */
+            width: 100%;
+        }
+
+        /* ====================
+           2. NAVBAR (SCROLL UP STICKY)
+           ==================== */
+        header {
+            background-color: var(--bg-white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-green);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            align-items: center; 
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--secondary-blue);
+        }
+
+        /* Tombol Hamburger Menu Mobile */
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            cursor: pointer;
+            outline: none;
+            padding: 5px;
+            transition: color 0.3s;
+        }
+
+        .menu-toggle:hover {
+            color: var(--primary-green);
+        }
+
+        /* ====================
+           3. PAGE HEADER (BLOG BANNER)
+           ==================== */
+        .page-header {
+            padding: 160px 20px 80px;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/blog-page.webp') center/cover no-repeat;
+            color: var(--text-light);
+        }
+
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .page-header p {
+            font-size: 1.2rem;
+            max-width: 650px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        /* ====================
+           4. KONTEN ARTIKEL (GRID 3 KOTAK)
+           ==================== */
+        .section-container {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Diubah menjadi 280px agar proporsional di HP kecil */
+            gap: 30px;
+        }
+
+        .article-card {
+            background: var(--bg-white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .article-img-wrapper {
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .article-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .article-card:hover .article-img-wrapper img {
+            transform: scale(1.1);
+        }
+
+        .article-content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .article-date {
+            font-size: 0.85rem;
+            color: var(--accent-orange);
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .article-content h3 {
+            color: var(--text-dark);
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            line-height: 1.4;
+            min-height: 115px; 
+        }
+
+        .article-content p {
+            color: var(--text-gray);
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+            flex-grow: 1;
+            text-align: justify; /* Paragraf artikel lebih rapih */
+        }
+
+        .read-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--secondary-blue);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .read-more:hover {
+            color: var(--primary-green);
+        }
+
+        /* ====================
+           5. CTA BOTTOM SECTION
+           ==================== */
+        .cta-bottom {
+            background: linear-gradient(135deg, var(--primary-green), var(--secondary-blue));
+            border-radius: 15px;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 10px 25px rgba(2, 136, 209, 0.2);
+            margin-bottom: 0;
+        }
+
+        .cta-bottom h2 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        .cta-bottom p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-bottom-btn {
+            background: var(--accent-orange);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .cta-bottom-btn:hover {
+            background: #E65100;
+            transform: translateY(-3px);
+        }
+
+        /* ====================
+           6. FOOTER
+           ==================== */
+        footer {
+            background-color: #1A252F;
+            color: #ECF0F1;
+            padding: 70px 20px 20px;
+            margin-top: 80px;
+        }
+
+        .footer-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col h4 {
+            color: var(--accent-orange);
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-col h4::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary-green);
+        }
+
+        @media (min-width: 768px) {
+            .footer-col:nth-child(2) {
+                padding-inline-start: 40px;
+            }
+        }
+
+        .footer-col p {
+            color: #BDC3C7;
+            font-size: 0.95rem;
+            margin-bottom: 10px; 
+            line-height: 1.6;
+        }
+
+        .footer-col p.has-icon {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .footer-col p.has-icon i {
+            color: var(--accent-orange);
+            width: 20px;
+            text-align: center;
+            font-size: 1.1rem;
+            margin-top: 4px; 
+            flex-shrink: 0; 
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 10px; 
+        }
+
+        .footer-col ul li a {
+            color: #BDC3C7;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: flex;
+            align-items: flex-start; 
+            gap: 10px;
+            line-height: 1.6;
+        }
+        
+        .footer-col ul li a i {
+            margin-top: 4px; 
+            flex-shrink: 0;
+        }
+
+        .footer-col ul li a:hover {
+            color: var(--secondary-blue);
+            padding-left: 5px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: #2C3E50;
+            color: white;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .social-links a i {
+            font-size: 1.1rem;
+        }
+
+        .social-links a:hover {
+            background: var(--primary-green);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 25px;
+            border-top: 1px solid #34495E;
+            color: #7F8C8D;
+            font-size: 0.9rem;
+        }
+
+        /* ====================
+           7. FLOATING BUTTONS
+           ==================== */
+        .floating-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        .float-btn {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+
+        .float-btn:hover {
+            transform: scale(1.1);
+        }
+
+        #top-btn {
+            background-color: var(--secondary-blue);
+            color: white;
+            font-size: 1.2rem;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .wa-btn {
+            background-color: #25D366;
+            color: white;
+            font-size: 1.8rem;
+        }
+
+        /* ====================
+           8. RESPONSIVE DESIGN (MOBILE)
+           ==================== */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block; /* Munculkan hamburger di mobile */
+            }
+
+            nav {
+                position: relative;
+                padding: 15px 20px;
+            }
+
+            /* Sistem Dropdown Menu Mobile */
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--bg-white);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                padding: 20px;
+                gap: 15px;
+                text-align: center;
+                z-index: 999;
+                border-top: 1px solid #eee;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .page-header h1 { font-size: 2.2rem; }
+            .floating-container { bottom: 15px; right: 15px; }
+            .float-btn { width: 50px; height: 50px; }
+            .section-container { margin: 60px auto; width: calc(100% - 20px); }
+            .cta-bottom { padding: 40px 20px; }
+            .cta-bottom h2 { font-size: 1.8rem; }
+
+            /* Footer Rata Tengah di Mobile */
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 35px;
+            }
+            .footer-col {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .footer-col h4::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .footer-col p.has-icon {
+                justify-content: center;
+                text-align: center;
+            }
+            .footer-col ul li a {
+                justify-content: center;
+            }
+            .social-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <nav>
+            <a href="index.html" class="logo"><i class="fa-solid fa-tree"></i> OutboundBatu</a>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header" id="page-header">
+            <h1>Kumpulan Artikel & Tips</h1>
+            <p>Temukan wawasan terbaru seputar rekreasi alam, persiapan aktivitas, dan panduan lengkap liburan seru di Kota Batu.</p>
+        </section>
+
+        <section class="section-container">
+            <div class="article-grid">
+                
+                <article class="article-card">
+                    <div class="article-img-wrapper">
+                        <img src="image/tim-outbound.webp" alt="Team Building">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-date">18 Mei 2026</span>
+                        <h3>5 Manfaat Team Building di Alam Terbuka untuk Karyawan</h3>
+                        <p>Aktivitas di alam terbuka terbukti mampu menurunkan tingkat stres kerja dan meningkatkan kohesi tim secara signifikan. Simak studi selengkapnya di sini.</p>
+                        <a href="manfaat-team-building.html" class="read-more">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-img-wrapper">
+                        <img src="image/rute-batu.webp" alt="Vespa Touring Kota Batu" loading="lazy" decoding="async">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-date">10 Mei 2026</span>
+                        <h3>Serunya Rute Touring Vespa Menyusuri Udara Sejuk Kota Batu</h3>
+                        <p>Selain permainan kelompok, menjelajah pedesaan eksotis dan kebun apel menggunakan skuter klasik legendaris menjadi alternatif rekreasi seru yang patut dicoba tim Anda.</p>
+                        <a href="rute-touring-batu.html" class="read-more">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-img-wrapper">
+                        <img src="image/barang-bawaan.webp" alt="Persiapan Outbound" loading="lazy" decoding="async">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-date">02 Mei 2026</span>
+                        <h3>Daftar Barang Bawaan Wajib Saat Mengikuti Kegiatan Outbound</h3>
+                        <p>Jangan sampai keseruan kelompok terganggu karena Anda salah kostum. Berikut adalah panduan dan daftar peralatan pribadi wajib yang harus Anda persiapkan.</p>
+                        <a href="barang-bawaan-outbound.html" class="read-more">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="section-container cta-bottom">
+            <h2>Siap Mengukir Pengalaman Seru Bersama Tim Anda?</h2>
+            <p>Jangan tunda lagi. Konsultasikan kebutuhan instansi atau perusahaan Anda secara gratis dan dapatkan penawaran paket outbound terbaik hari ini!</p>
+            <a href="https://wa.me/6281234567890" target="_blank" class="cta-bottom-btn">
+                <i class="fa-brands fa-whatsapp"></i> Hubungi Kami Sekarang
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>OutboundBatu</h4>
+                <p>Penyedia layanan manajemen luar ruang (outdoor management) terbaik yang memadukan rekreasi, edukasi, dan petualangan di Kota Wisata Batu, Jawa Timur.</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Tautan Cepat</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Beranda</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> Tentang Kami</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-chevron-right"></i> Artikel Terbaru</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Kontak Kami</h4>
+                <p class="has-icon"><i class="fa-solid fa-location-dot"></i> Jl. Panglima Sudirman No. 123, Batu</p>
+                <p class="has-icon"><i class="fa-solid fa-phone"></i> +62 812 3456 7890</p>
+                <p class="has-icon"><i class="fa-solid fa-envelope"></i> info@outboundbatu.com</p>
+                <p class="has-icon"><i class="fa-solid fa-clock"></i> Senin - Sabtu: 08:00 - 17:00</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Sosial Media</h4>
+                <p>Bagikan momen keseruan dan ikuti pembaruan kami di platform sosial media.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/outboundbatu" target="_blank" rel="noopener noreferrer" title="Buka Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/outboundbatu" target="_blank" rel="noopener noreferrer" title="Buka Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@outboundbatu" target="_blank" rel="noopener noreferrer" title="Buka YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 OutboundBatu. All Rights Reserved. Desain ramah UI/UX.</p>
+        </div>
+    </footer>
+
+    <div class="floating-container">
+        <button id="top-btn" class="float-btn" title="Kembali ke atas">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        
+        <a href="https://wa.me/6281234567890?text=Halo%20Admin%20OutboundBatu,%20saya%20tertarik%20dengan%20paket%20kegiatan%20outbound..." 
+           target="_blank" 
+           class="float-btn wa-btn" 
+           title="Hubungi Kami via WhatsApp">
+           <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.getElementById('header');
+            const topBtn = document.getElementById('top-btn');
+            const pageHeader = document.getElementById('page-header');
+            const menuToggle = document.getElementById('menu-toggle');
+            const navLinks = document.getElementById('nav-links');
+            
+            let lastScrollTop = 0;
+
+            // 1. LOGIKA DROPDOWN MENU MOBILE (HAMBURGER TOGGLE)
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                const icon = menuToggle.querySelector('i');
+                if (navLinks.classList.contains('active')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-xmark');
+                } else {
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                }
+            });
+
+            // Menutup dropdown otomatis jika layar ditarik kembali ke desktop
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 768) {
+                    navLinks.classList.remove('active');
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                }
+            });
+
+            window.addEventListener('scroll', () => {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                // 2. LOGIKA SCROLL UP STICKY NAVBAR
+                if (scrollTop > lastScrollTop && scrollTop > 100) {
+                    // Scroll ke bawah: Sembunyikan navbar dan tutup dropdown mobile
+                    header.style.transform = 'translateY(-100%)';
+                    navLinks.classList.remove('active');
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                } else {
+                    // Scroll ke atas: Munculkan kembali navbar
+                    header.style.transform = 'translateY(0)';
+                }
+                lastScrollTop = scrollTop;
+
+                // 3. LOGIKA MUNCULNYA TOMBOL FLOATING TOP
+                let bannerHeight = pageHeader ? pageHeader.offsetHeight : 400;
+                if (scrollTop > bannerHeight - 150) {
+                    topBtn.style.opacity = '1';
+                    topBtn.style.visibility = 'visible';
+                } else {
+                    topBtn.style.opacity = '0';
+                    topBtn.style.visibility = 'hidden';
+                }
+            });
+
+            // 4. FUNGSI SCROLL KE ATAS
+            topBtn.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

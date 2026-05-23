@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Outbound Malang Batu - Pengalaman Alam Terbaik</title>
+    <meta name="description" content="Penyedia layanan paket Outbound, Team Building, dan Adventure terbaik di Malang Raya dan Kota Batu. Fasilitator tersertifikasi dengan lokasi eksklusif.">
+    <meta name="keywords" content="Outbound Malang, Outbound Batu, Team Building Malang, Wisata Alam Batu, Paket Outbound, Adventure Batu">
+    <meta name="author" content="OutboundBatu">
+    <link rel="canonical" href="https://www.outboundbatu.com/">
+
+    <meta property="og:title" content="Outbound Malang Batu - Pengalaman Alam Terbaik">
+    <meta property="og:description" content="Penyedia layanan paket Outbound, Team Building, dan Adventure terbaik di Malang Raya dan Kota Batu.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1517606346385-d60211a77002?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://www.outboundbatu.com/">
+    <meta property="og:type" content="website">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#2E8B57">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "OutboundBatu",
+      "image": "https://images.unsplash.com/photo-1517606346385-d60211a77002?auto=format&fit=crop&w=1200&q=80",
+      "description": "Penyedia layanan manajemen luar ruang (outdoor management) terbaik yang memadukan rekreasi, edukasi, dan petualangan di Kota Wisata Batu, Jawa Timur.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Panglima Sudirman No. 123",
+        "addressLocality": "Batu",
+        "addressRegion": "Jawa Timur",
+        "addressCountry": "ID"
+      },
+      "telephone": "+6281234567890"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Apakah kegiatan aman untuk semua usia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ya, keamanan adalah prioritas kami. Semua permainan dan simulasi dirancang serta diawasi oleh instruktur tersertifikasi. Kami juga dapat menyesuaikan tingkat intensitas aktivitas sesuai dengan kelompok usia dan kondisi fisik peserta yang hadir."
+        }
+      },{
+        "@type": "Question",
+        "name": "Apakah harga paket sudah termasuk transportasi & konsumsi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sebagian besar paket standar kami sudah mencakup tiket masuk lokasi, fasilitas kegiatan, perlengkapan, dan makan siang/snack. Namun, untuk transportasi dari kota asal menuju titik kumpul, dapat ditambahkan sebagai opsi layanan eksklusif tambahan."
+        }
+      },{
+        "@type": "Question",
+        "name": "Berapa jumlah minimal peserta untuk satu grup?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Untuk memaksimalkan esensi dinamika kelompok dalam Team Building, kami merekomendasikan jumlah minimal 20 orang. Namun, kami tetap melayani kelompok kecil atau family gathering dengan program yang dikhususkan."
+        }
+      }]
+    }
+    </script>
+
+    <style>
+        /* ====================
+           1. RESET & VARIABEL TEMA
+           ==================== */
+        :root {
+            --primary-green: #2E8B57;
+            --secondary-blue: #0288D1;
+            --accent-orange: #FF8F00;
+            --bg-light: #F9FBE7;
+            --bg-white: #FFFFFF;
+            --text-dark: #2C3E50;
+            --text-gray: #606F7B;
+            --text-light: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        html, body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden; 
+            width: 100%;
+        }
+
+        /* ====================
+           2. NAVBAR (SCROLL UP STICKY)
+           ==================== */
+        header {
+            background-color: var(--bg-white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-green);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--secondary-blue);
+        }
+
+        /* Tombol Hamburger Menu Mobile */
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            cursor: pointer;
+            outline: none;
+            padding: 5px;
+            transition: color 0.3s;
+        }
+
+        .menu-toggle:hover {
+            color: var(--primary-green);
+        }
+
+        /* ====================
+           3. HERO SECTION
+           ==================== */
+        #hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            /* Background transparan standar gelap/hitam 60% */
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('image/hero.webp') center/cover no-repeat;
+            color: var(--text-light);
+            padding: 0 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            line-height: 1.2;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            max-width: 650px;
+            margin-left: auto;
+            margin-right: auto;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        .cta-btn {
+            background-color: var(--accent-orange);
+            color: var(--text-light);
+            padding: 14px 35px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: background 0.3s, transform 0.2s;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(255, 143, 0, 0.4);
+        }
+
+        .cta-btn:hover {
+            background-color: #E65100;
+            transform: translateY(-2px);
+        }
+
+        /* ====================
+           4. KONTEN UMUM (MENGAPA MEMILIH KAMI)
+           ==================== */
+        .section-container {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--primary-green);
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-gray);
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+
+        /* Keunggulan Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .feature-box {
+            background: var(--bg-white);
+            padding: 40px 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-green);
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .feature-box h3 {
+            color: var(--secondary-blue);
+            margin-bottom: 15px;
+            min-height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .feature-box p {
+            color: var(--text-gray);
+            text-align: justify; 
+            flex-grow: 1;
+            line-height: 1.6;
+        }
+
+        /* ====================
+           5. TENTANG KAMI SECTION
+           ==================== */
+        .about-flex {
+            display: flex;
+            align-items: stretch;
+            gap: 0;
+            background: var(--bg-white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--secondary-blue);
+        }
+
+        .about-img {
+            flex: 1;
+            max-width: 50%;
+        }
+
+        .about-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            min-height: 400px;
+            display: block;
+        }
+
+        .about-content {
+            flex: 1;
+            padding: 40px 50px;
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+        }
+
+        .about-content h3 {
+            color: var(--text-dark);
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .about-content p {
+            color: var(--text-gray);
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+
+        /* ====================
+           6. ARTIKEL SECTION
+           ==================== */
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .article-card {
+            background: var(--bg-white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .article-img-wrapper {
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .article-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .article-card:hover .article-img-wrapper img {
+            transform: scale(1.1);
+        }
+
+        .article-content {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .article-date {
+            font-size: 0.85rem;
+            color: var(--accent-orange);
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .article-content h3 {
+            color: var(--text-dark);
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            line-height: 1.4;
+            /* Diperbesar menjadi 90px agar mengakomodasi judul hingga 3 baris
+               sehingga semua paragraf di bawahnya sejajar dengan sempurna */
+            min-height: 90px; 
+        }
+
+        .article-content p {
+            color: var(--text-gray);
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+            flex-grow: 1;
+            text-align: justify; /* Membuat paragraf rapih rata kanan-kiri */
+        }
+
+        .read-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--secondary-blue);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .read-more:hover {
+            color: var(--primary-green);
+        }
+
+        /* ====================
+           7. FAQ SECTION
+           ==================== */
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        details.faq-item {
+            background: var(--bg-white);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            overflow: hidden;
+            border-left: 4px solid var(--primary-green);
+        }
+
+        details.faq-item summary {
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 20px;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-dark);
+            transition: color 0.3s;
+        }
+
+        details.faq-item summary:hover {
+            color: var(--primary-green);
+        }
+
+        details.faq-item summary::-webkit-details-marker {
+            display: none;
+        }
+
+        details.faq-item summary::after {
+            content: '\f078';
+            font-family: 'FontAwesome';
+            color: var(--accent-orange);
+            transition: transform 0.3s;
+        }
+
+        details.faq-item[open] summary::after {
+            transform: rotate(180deg);
+        }
+
+        .faq-content {
+            padding: 0 20px 20px;
+            color: var(--text-gray);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* ====================
+           8. CTA BOTTOM SECTION
+           ==================== */
+        .cta-bottom {
+            background: linear-gradient(135deg, var(--primary-green), var(--secondary-blue));
+            border-radius: 15px;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 10px 25px rgba(2, 136, 209, 0.2);
+            margin-bottom: 0;
+        }
+
+        .cta-bottom h2 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        .cta-bottom p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-bottom-btn {
+            background: var(--accent-orange);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .cta-bottom-btn:hover {
+            background: #E65100;
+            transform: translateY(-3px);
+        }
+
+        /* ====================
+           9. FOOTER
+           ==================== */
+        footer {
+            background-color: #1A252F;
+            color: #ECF0F1;
+            padding: 70px 20px 20px;
+            margin-top: 80px;
+            width: 100%;
+        }
+
+        .footer-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col h4 {
+            color: var(--accent-orange);
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-col h4::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary-green);
+        }
+
+        @media (min-width: 768px) {
+            .footer-col:nth-child(2) {
+                padding-inline-start: 40px;
+            }
+        }
+
+        .footer-col p {
+            color: #BDC3C7;
+            font-size: 0.95rem;
+            margin-bottom: 8px; 
+            display: flex;
+            align-items: flex-start; 
+            gap: 12px;
+            line-height: 1.5;
+        }
+
+        .footer-col p i {
+            color: var(--accent-orange);
+            width: 20px;
+            text-align: center;
+            font-size: 1.1rem;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 8px; 
+        }
+
+        .footer-col ul li a {
+            color: #BDC3C7;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-col ul li a:hover {
+            color: var(--secondary-blue);
+            padding-left: 5px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: #2C3E50;
+            color: white;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .social-links a:hover {
+            background: var(--primary-green);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 25px;
+            border-top: 1px solid #34495E;
+            color: #7F8C8D;
+            font-size: 0.9rem;
+        }
+
+        /* ====================
+           10. FLOATING BUTTONS
+           ==================== */
+        .floating-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        .float-btn {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+
+        .float-btn:hover {
+            transform: scale(1.1);
+        }
+
+        #top-btn {
+            background-color: var(--secondary-blue);
+            color: white;
+            font-size: 1.2rem;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .wa-btn {
+            background-color: #25D366;
+            color: white;
+            font-size: 1.8rem;
+        }
+
+        /* ====================
+           11. RESPONSIVE DESIGN (PROPORSIAL & PROFESIONAL)
+           ==================== */
+        @media (max-width: 992px) {
+            .about-flex {
+                flex-direction: column;
+            }
+            .about-img {
+                max-width: 100%;
+            }
+            .about-img img {
+                min-height: 250px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block; /* Memunculkan tombol hamburger */
+            }
+
+            nav {
+                position: relative;
+                padding: 15px 20px;
+            }
+
+            /* Dropdown Menu Mobile */
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--bg-white);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                padding: 20px;
+                gap: 15px;
+                text-align: center;
+                z-index: 999;
+                border-top: 1px solid #eee;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .hero-content h1 { font-size: 2.5rem; }
+            .hero-content p { font-size: 1.05rem; }
+            
+            .floating-container { bottom: 15px; right: 15px; }
+            .float-btn { width: 50px; height: 50px; }
+            .section-container { margin: 60px auto; }
+            .about-content { padding: 25px; }
+            .cta-bottom { padding: 40px 20px; }
+            .cta-bottom h2 { font-size: 1.8rem; }
+
+            /* Optimasi Footer Rata Tengah di Mobile */
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 35px;
+            }
+            .footer-col {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .footer-col h4::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .footer-col p {
+                justify-content: center;
+                text-align: center;
+            }
+            .footer-col ul li a {
+                justify-content: center;
+            }
+            .social-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <nav>
+            <a href="index.html" class="logo"><i class="fa-solid fa-tree"></i> OutboundBatu</a>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Sinergi Ciptakan Energi</h1>
+                <p>Lepaskan penat dan bangun kekompakan tim Anda dengan paket Outbound & Adventure terbaik di sejuknya alam Malang Raya dan Kota Batu.</p>
+                <a href="about.html" class="cta-btn">Mulai Jelajah</a>
+            </div>
+        </section>
+
+        <section class="section-container">
+            <h2 class="section-title">Mengapa Memilih Kami?</h2>
+            <p class="section-subtitle">Pengalaman, Profesionalisme, dan Keamanan adalah prioritas utama kami.</p>
+            
+            <div class="features-grid">
+                <div class="feature-box">
+                    <i class="fa-solid fa-shield-halved feature-icon"></i>
+                    <h3>Fasilitator Tersertifikasi</h3>
+                    <p>Dipandu oleh tenaga ahli yang berpengalaman dalam mengelola dinamika kelompok dan manajemen keselamatan.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fa-solid fa-mountain-sun feature-icon"></i>
+                    <h3>Lokasi Eksklusif</h3>
+                    <p>Memiliki akses ke berbagai spot alam terbaik di Kota Batu, mulai dari hutan pinus hingga area rekreasi menantang.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fa-solid fa-bullseye feature-icon"></i>
+                    <h3>Program Kustom</h3>
+                    <p>Kami merancang kegiatan sesuai dengan tujuan instansi Anda, baik untuk rekreasi santai maupun peningkatan produktivitas tim.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang-kami" class="section-container">
+            <h2 class="section-title">Lebih Dekat Dengan Kami</h2>
+            <p class="section-subtitle">Kenali lebih jauh tentang pengalaman luar ruang yang kami tawarkan.</p>
+
+            <div class="about-flex">
+                <div class="about-img">
+                    <img src="image/img-index.webp" alt="Tim Sedang Melakukan Kegiatan Outbound di Alam" loading="lazy" decoding="async">
+                </div>
+                <div class="about-content">
+                    <h3>Memadukan Rekreasi dan Edukasi di Alam Bebas</h3>
+                    <p>OutboundBatu adalah penyedia layanan manajemen luar ruang (outdoor management) profesional yang berdedikasi untuk menciptakan pengalaman tak terlupakan. Kami percaya bahwa alam adalah sarana terbaik untuk melepaskan stres, menjalin keakraban, dan menggali potensi diri maupun tim.</p>
+                    <p>Berdiri di jantung Kota Wisata Batu yang sejuk, kami memfasilitasi berbagai kegiatan mulai dari <i>Fun Games</i>, <i>Character Building</i>, hingga simulasi petualangan yang memacu adrenalin. Setiap program dikawal ketat oleh instruktur tersertifikasi demi menjamin 100% keamanan dan kenyamanan peserta.</p>
+                    <p>Mari keluar dari rutinitas sejenak, hirup udara segar pegunungan, and pulihkan semangat Anda bersama kami!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="artikel" class="section-container">
+            <h2 class="section-title">Artikel & Tips Terbaru</h2>
+            <p class="section-subtitle">Kumpulan wawasan seputar kegiatan alam, persiapan tim, dan keseruan rekreasi.</p>
+
+            <div class="article-grid">
+                <article class="article-card">
+                    <div class="article-img-wrapper">
+                        <img src="image/tim-outbound.webp" alt="Team Building" loading="lazy" decoding="async">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-date">18 Mei 2026</span>
+                        <h3>5 Manfaat Team Building di Alam Terbuka untuk Karyawan</h3>
+                        <p>Aktivitas di alam terbuka terbukti mampu menurunkan tingkat stres kerja dan meningkatkan kohesi tim secara signifikan. Simak studi selengkapnya di sini.</p>
+                        <a href="manfaat-team-building.html" class="read-more">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-img-wrapper">
+                        <img src="image/rute-batu.webp" alt="Vespa Touring Kota Batu" loading="lazy" decoding="async">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-date">10 Mei 2026</span>
+                        <h3>Serunya Rute Touring Vespa Menyusuri Udara Sejuk Kota Batu</h3>
+                        <p>Selain permainan kelompok, menjelajah pedesaan dan kebun apel menggunakan skuter klasik menjadi alternatif rekreasi seru yang patut dicoba.</p>
+                        <a href="rute-touring-vespa.html" class="read-more">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-img-wrapper">
+                        <img src="image/barang-bawaan.webp" alt="Persiapan Outbound" loading="lazy" decoding="async">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-date">02 Mei 2026</span>
+                        <h3>Daftar Barang Bawaan Wajib Saat Mengikuti Kegiatan Outbound</h3>
+                        <p>Jangan sampai kegiatan seru Anda terganggu karena salah kostum. Berikut adalah daftar peralatan pribadi yang wajib Anda persiapkan.</p>
+                        <a href="aksesoris_wajib_vespa.html" class="read-more">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="faq" class="section-container">
+            <h2 class="section-title">Pertanyaan Sering Diajukan (FAQ)</h2>
+            <p class="section-subtitle">Temukan jawaban cepat untuk pertanyaan umum terkait layanan kami.</p>
+            
+            <div class="faq-container">
+                <details class="faq-item">
+                    <summary>Apakah kegiatan aman untuk semua usia?</summary>
+                    <div class="faq-content">
+                        <p>Ya, keamanan adalah prioritas kami. Semua permainan dan simulasi dirancang serta diawasi oleh instruktur tersertifikasi. Kami juga dapat menyesuaikan tingkat intensitas aktivitas sesuai dengan kelompok usia dan kondisi fisik peserta yang hadir.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Apakah harga paket sudah termasuk transportasi & konsumsi?</summary>
+                    <div class="faq-content">
+                        <p>Sebagian besar paket standar kami sudah mencakup tiket masuk lokasi, fasilitas kegiatan, perlengkapan, dan makan siang/snack. Namun, untuk transportasi dari kota asal menuju titik kumpul, dapat ditambahkan sebagai opsi layanan eksklusif tambahan.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Berapa jumlah minimal peserta untuk satu grup?</summary>
+                    <div class="faq-content">
+                        <p>Untuk memaksimalkan esensi dinamika kelompok dalam Team Building, kami merekomendasikan jumlah minimal 20 orang. Namun, kami tetap melayani kelompok kecil atau family gathering dengan program yang dikhususkan.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <section class="section-container cta-bottom">
+            <h2>Siap Mengukir Pengalaman Seru Bersama Tim Anda?</h2>
+            <p>Jangan tunda lagi. Konsultasikan kebutuhan instansi atau perusahaan Anda secara gratis dan dapatkan penawaran paket outbound terbaik hari ini!</p>
+            <a href="https://wa.me/6281234567890" target="_blank" class="cta-bottom-btn">
+                <i class="fa-brands fa-whatsapp"></i> Hubungi Kami Sekarang
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>OutboundBatu</h4>
+                <p>Penyedia layanan manajemen luar ruang (outdoor management) terbaik yang memadukan rekreasi, edukasi, dan petualangan di Kota Wisata Batu, Jawa Timur.</p>
+            </div>
+            
+            <div class="footer-col ps-lg-5">
+                <h4>Tautan Cepat</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Beranda</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> Tentang Kami</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-chevron-right"></i> Artikel Terbaru</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Kontak Kami</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Jl. Panglima Sudirman No. 123, Batu</p>
+                <p><i class="fa-solid fa-phone"></i> +62 812 3456 7890</p>
+                <p><i class="fa-solid fa-envelope"></i> info@outboundbatu.com</p>
+                <p><i class="fa-solid fa-clock"></i> Senin - Sabtu: 08:00 - 17:00</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Sosial Media</h4>
+                <p>Bagikan momen keseruan dan ikuti pembaruan kami di platform sosial media.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/outboundbatu" target="_blank" rel="noopener noreferrer" title="Buka Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/outboundbatu" target="_blank" rel="noopener noreferrer" title="Buka Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@outboundbatu" target="_blank" rel="noopener noreferrer" title="Buka YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 OutboundBatu. All Rights Reserved. Desain ramah UI/UX.</p>
+        </div>
+    </footer>
+
+    <div class="floating-container">
+        <button id="top-btn" class="float-btn" title="Kembali ke atas">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        
+        <a href="https://wa.me/6281234567890?text=Halo%20Admin%20OutboundBatu,%20saya%20ingin%20info%20kegiatan..." 
+           target="_blank" 
+           class="float-btn wa-btn" 
+           title="Hubungi Kami via WhatsApp">
+           <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.getElementById('header');
+            const topBtn = document.getElementById('top-btn');
+            const heroSection = document.getElementById('hero');
+            const menuToggle = document.getElementById('menu-toggle');
+            const navLinks = document.getElementById('nav-links');
+            
+            let lastScrollTop = 0;
+
+            // 1. LOGIKA DROPDOWN MENU MOBILE (HAMBURGER TOGGLE)
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                const icon = menuToggle.querySelector('i');
+                if (navLinks.classList.contains('active')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-xmark');
+                } else {
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                }
+            });
+
+            // Otomatis menutup menu mobile saat di-resize kembali ke desktop
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 768) {
+                    navLinks.classList.remove('active');
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                }
+            });
+
+            window.addEventListener('scroll', () => {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                // 2. LOGIKA SCROLL UP STICKY NAVBAR
+                if (scrollTop > lastScrollTop && scrollTop > 100) {
+                    // Scroll ke bawah: Sembunyikan navbar
+                    header.style.transform = 'translateY(-100%)';
+                    navLinks.classList.remove('active'); // Otomatis tutup dropdown menu mobile jika scroll down
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                } else {
+                    // Scroll ke atas: Munculkan kembali
+                    header.style.transform = 'translateY(0)';
+                }
+                lastScrollTop = scrollTop;
+
+                // 3. LOGIKA MUNCULNYA TOMBOL FLOATING TOP
+                let heroHeight = heroSection ? heroSection.offsetHeight : 500;
+                if (scrollTop > heroHeight - 150) {
+                    topBtn.style.opacity = '1';
+                    topBtn.style.visibility = 'visible';
+                } else {
+                    topBtn.style.opacity = '0';
+                    topBtn.style.visibility = 'hidden';
+                }
+            });
+
+            // 4. FUNGSI SCROLL KE ATAS
+            topBtn.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
