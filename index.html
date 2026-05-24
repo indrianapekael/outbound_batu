@@ -337,6 +337,110 @@
         }
 
         /* ====================
+           PAKET OUTBOUND SECTION
+           ==================== */
+        .package-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .package-card {
+            background: var(--bg-white);
+            border-radius: 12px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            border-top: 5px solid var(--primary-green);
+        }
+
+        .package-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .package-card h3 {
+            color: var(--text-dark);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .package-price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent-orange);
+            margin-bottom: 20px;
+        }
+
+        .package-price span {
+            font-size: 1rem;
+            color: var(--text-gray);
+            font-weight: normal;
+        }
+
+        .package-features {
+            list-style: none;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .package-features li {
+            margin-bottom: 10px;
+            color: var(--text-gray);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .package-features li i {
+            color: var(--primary-green);
+        }
+
+        .package-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--bg-light);
+            color: var(--secondary-blue);
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            border: 2px solid var(--secondary-blue);
+            transition: all 0.3s;
+        }
+
+        .package-card:hover .package-btn {
+            background-color: var(--secondary-blue);
+            color: var(--text-light);
+        }
+
+        /* ====================
+           GALERI SECTION
+           ==================== */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            aspect-ratio: 4/3;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        /* ====================
            6. ARTIKEL SECTION
            ==================== */
         .article-grid {
@@ -399,7 +503,7 @@
             margin-bottom: 15px;
             line-height: 1.4;
             /* Diperbesar menjadi 90px agar mengakomodasi judul hingga 3 baris
-               sehingga semua paragraf di bawahnya sejajar dengan sempurna */
+                sehingga semua paragraf di bawahnya sejajar dengan sempurna */
             min-height: 90px; 
         }
 
@@ -842,6 +946,96 @@
             </div>
         </section>
 
+        <section id="paket" class="section-container">
+            <h2 class="section-title">Pilihan Paket Outbound</h2>
+            <p class="section-subtitle">Sesuaikan kegiatan dengan kebutuhan dan anggaran tim Anda.</p>
+            <div class="package-grid">
+                <div class="package-card">
+                    <h3>Fun Games</h3>
+                    <div class="package-price">Rp 150K<span>/pax</span></div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> Tiket Masuk Lokasi</li>
+                        <li><i class="fa-solid fa-check"></i> Instruktur Berpengalaman</li>
+                        <li><i class="fa-solid fa-check"></i> Ice Breaking & Fun Games</li>
+                        <li><i class="fa-solid fa-check"></i> Peralatan Standar</li>
+                        <li><i class="fa-solid fa-check"></i> Air Mineral</li>
+                    </ul>
+                    <a href="https://wa.me/6281234567890" target="_blank" class="package-btn">Pesan Sekarang</a>
+                </div>
+                <div class="package-card" style="border-top-color: var(--secondary-blue);">
+                    <h3>Team Building</h3>
+                    <div class="package-price" style="color: var(--secondary-blue);">Rp 250K<span>/pax</span></div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> Semua Fasilitas Fun Games</li>
+                        <li><i class="fa-solid fa-check"></i> Problem Solving Games</li>
+                        <li><i class="fa-solid fa-check"></i> 1x Makan Siang & Snack</li>
+                        <li><i class="fa-solid fa-check"></i> Spanduk Kegiatan</li>
+                        <li><i class="fa-solid fa-check"></i> Dokumentasi Foto</li>
+                    </ul>
+                    <a href="https://wa.me/6281234567890" target="_blank" class="package-btn">Pesan Sekarang</a>
+                </div>
+                <div class="package-card" style="border-top-color: var(--accent-orange);">
+                    <h3>Adventure</h3>
+                    <div class="package-price" style="color: var(--accent-orange);">Rp 350K<span>/pax</span></div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> Semua Fasilitas Team Building</li>
+                        <li><i class="fa-solid fa-check"></i> Paintball / Rafting (Pilih 1)</li>
+                        <li><i class="fa-solid fa-check"></i> P3K & Asuransi Standar</li>
+                        <li><i class="fa-solid fa-check"></i> Kendaraan Lokal (Shuttle)</li>
+                        <li><i class="fa-solid fa-check"></i> Dokumentasi Video Premium</li>
+                    </ul>
+                    <a href="https://wa.me/6281234567890" target="_blank" class="package-btn">Pesan Sekarang</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeri" class="section-container">
+            <h2 class="section-title">Galeri Kegiatan</h2>
+            <p class="section-subtitle">Momen keseruan klien yang telah mempercayakan acaranya kepada kami.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="image/galeri-satu.webp" alt="Galeri Outbound 1" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/galeri-dua.webp" alt="Galeri Outbound 2" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/galeri-tiga.webp" alt="Galeri Outbound 3" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/galeri-empat.webp" alt="Galeri Outbound 4" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section-container">
+            <h2 class="section-title">Pertanyaan Sering Diajukan (FAQ)</h2>
+            <p class="section-subtitle">Temukan jawaban cepat untuk pertanyaan umum terkait layanan kami.</p>
+            
+            <div class="faq-container">
+                <details class="faq-item">
+                    <summary>Apakah kegiatan aman untuk semua usia?</summary>
+                    <div class="faq-content">
+                        <p>Ya, keamanan adalah prioritas kami. Semua permainan dan simulasi dirancang serta diawasi oleh instruktur tersertifikasi. Kami juga dapat menyesuaikan tingkat intensitas aktivitas sesuai dengan kelompok usia dan kondisi fisik peserta yang hadir.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Apakah harga paket sudah termasuk transportasi & konsumsi?</summary>
+                    <div class="faq-content">
+                        <p>Sebagian besar paket standar kami sudah mencakup tiket masuk lokasi, fasilitas kegiatan, perlengkapan, dan makan siang/snack. Namun, untuk transportasi dari kota asal menuju titik kumpul, dapat ditambahkan sebagai opsi layanan eksklusif tambahan.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Berapa jumlah minimal peserta untuk satu grup?</summary>
+                    <div class="faq-content">
+                        <p>Untuk memaksimalkan esensi dinamika kelompok dalam Team Building, kami merekomendasikan jumlah minimal 20 orang. Namun, kami tetap melayani kelompok kecil atau family gathering dengan program yang dikhususkan.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
         <section id="artikel" class="section-container">
             <h2 class="section-title">Artikel & Tips Terbaru</h2>
             <p class="section-subtitle">Kumpulan wawasan seputar kegiatan alam, persiapan tim, dan keseruan rekreasi.</p>
@@ -882,34 +1076,6 @@
                         <a href="aksesoris_wajib_vespa.html" class="read-more">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
-            </div>
-        </section>
-
-        <section id="faq" class="section-container">
-            <h2 class="section-title">Pertanyaan Sering Diajukan (FAQ)</h2>
-            <p class="section-subtitle">Temukan jawaban cepat untuk pertanyaan umum terkait layanan kami.</p>
-            
-            <div class="faq-container">
-                <details class="faq-item">
-                    <summary>Apakah kegiatan aman untuk semua usia?</summary>
-                    <div class="faq-content">
-                        <p>Ya, keamanan adalah prioritas kami. Semua permainan dan simulasi dirancang serta diawasi oleh instruktur tersertifikasi. Kami juga dapat menyesuaikan tingkat intensitas aktivitas sesuai dengan kelompok usia dan kondisi fisik peserta yang hadir.</p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary>Apakah harga paket sudah termasuk transportasi & konsumsi?</summary>
-                    <div class="faq-content">
-                        <p>Sebagian besar paket standar kami sudah mencakup tiket masuk lokasi, fasilitas kegiatan, perlengkapan, dan makan siang/snack. Namun, untuk transportasi dari kota asal menuju titik kumpul, dapat ditambahkan sebagai opsi layanan eksklusif tambahan.</p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary>Berapa jumlah minimal peserta untuk satu grup?</summary>
-                    <div class="faq-content">
-                        <p>Untuk memaksimalkan esensi dinamika kelompok dalam Team Building, kami merekomendasikan jumlah minimal 20 orang. Namun, kami tetap melayani kelompok kecil atau family gathering dengan program yang dikhususkan.</p>
-                    </div>
-                </details>
             </div>
         </section>
 
@@ -975,10 +1141,10 @@
         </button>
         
         <a href="https://wa.me/6281234567890?text=Halo%20Admin%20OutboundBatu,%20saya%20ingin%20info%20kegiatan..." 
-           target="_blank" 
-           class="float-btn wa-btn" 
-           title="Hubungi Kami via WhatsApp">
-           <i class="fa-brands fa-whatsapp"></i>
+            target="_blank" 
+            class="float-btn wa-btn" 
+            title="Hubungi Kami via WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
         </a>
     </div>
 
